@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les bases du web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <img src="img/avatar-audi.png" alt="Avatar" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+            <ul>
+                <li><a href="#">À propos</a></li>
+                <li class="active"><a href="#">Bases du Web</a></li>
+                <li><a href="#">Plan d'apprentissage</a></li>
+                <li><a href="#">Projets</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Les bases du web par Cezar <!-- Modifiez votre prénom --></h1>
+        <p class="subtitle">Une page pour concentrer les informations clés du Web et du développement !</p>
+    </header>
+
+    <section id="course">
+        <h2>Cours suivi</h2>
+        <a href="https://openclassrooms.com/fr/courses/1946386-comprendre-le-web" target="_blank">
+            <img src="img/cours.png" alt="Cours Comprendre le web" />
+        </a>
+    </section>
+
+    <section id="concepts">
+        <h2>Concepts clés</h2>
+        <div class="flex">
+            <article class="card">
+                <h3>Partie 1 - Découvrez le web et ses origines</h3>
+                <div class="dropdown">
+                    <h4>Web</h4>
+                    <p> 
+                         Le web, ou World Wide Web (WWW), 
+                         est un système mondial qui permet d'accéder à des informations et contenus variés comme des textes,
+                         des images ou des vidéos à travers des navigateurs.
+                         Il relie des pages et des ressources via des liens hypertextes.
+                         Ce réseau est essentiel pour la communication,
+                         l'apprentissage et de nombreuses activités en ligne.
+                    </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Internet</h4>
+                    <p>
+                          L’internet est un réseau mondial qui connecte des millions d’ordinateurs et d’appareils,
+                         permettant l’échange d’informations.
+                         Il est utilisé pour communiquer,
+                         accéder à des ressources, et partager des contenus.
+                         Il constitue la base technologique du web et de nombreux services numériques.
+                    </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Cloud</h4>
+                    <p> 
+                         Le cloud désigne un ensemble de serveurs accessibles via internet pour stocker,
+                         gérer et traiter des données à distance. 
+                         Il permet aux utilisateurs d’accéder à leurs fichiers et applications depuis
+                         n’importe quel appareil connecté. 
+                         Cette technologie offre flexibilité, 
+                         évolutivité et réduction des coûts matériels.
+                    </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>W3C</h4>
+                    <p>  
+                        Le W3C (World Wide Web Consortium) est une organisation internationale 
+                         qui élabore des standards pour garantir l’accessibilité,
+                         l’interopérabilité et l’évolution du web. 
+                         Fondé en 1994, il regroupe des experts et des entreprises du monde entier.
+                         Ses recommandations définissent les bases techniques du web moderne.
+                    </p> <!-- Renseignez la définition -->
+                </div>
+            </article>
+            <article class="card">
+                <h3>Partie 2 - Distinguez les langages du Web</h3>
+                <div class="dropdown">
+                    <h4>Langages client</h4>
+                    <p> 
+                        HTML (HyperText Markup Language)<br>CSS (Cascading Style Sheets)<br>JavaScript
+                    </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Navigateurs</h4>
+                    <p> 
+                         Un navigateur (ou browser) est un logiciel
+                         qui permet d'accéder et de visualiser des pages web sur internet.
+                         Il interprète les fichiers HTML,
+                         CSS et JavaScript pour afficher correctement le contenu d'un site.
+                         <br>Exemples de navigateurs :
+
+                         <br>.Google Chrome
+                         <br>.Mozilla Firefox
+                         <br>.Safari
+                         <br>.Microsoft Edge
+                         </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Langages serveur</h4>
+                    <p> 
+                         Les langages côté serveur (ou serveur-side) sont utilisés 
+                         pour traiter les requêtes des utilisateurs,
+                         gérer les bases de données et générer dynamiquement du contenu 
+                         avant de l'envoyer au client (navigateur). 
+                         <br>Voici quelques exemples courants :
+                        
+                         <br>.PHP
+                         <br>.Python
+                         <br>.Ruby
+                         <br>.Ruby, 
+                         <br>.Node.js
+                         <br>.Java
+                         <br>.C#
+                    </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Frameworks</h4>
+                    <p> 
+                         Un framework est un ensemble d'outils et de bibliothèques 
+                         préconfigurées qui facilite le développement d'applications 
+                         en fournissant une structure de base et des solutions pour des tâches courantes.
+                         Il permet aux développeurs de gagner du temps en évitant 
+                         de réinventer des fonctionnalités déjà existantes et en garantissant 
+                         la cohérence et la maintenabilité du code.
+                    </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Bases de données</h4>
+                    <p> 
+                         Une base de données est un système organisé pour stocker, 
+                         gérer et récupérer des informations de manière efficace.
+                    </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Site responsive</h4>
+                    <p> 
+                         Un site responsif est un site web 
+                         conçu pour s'adapter automatiquement à différentes tailles d'écran,
+                         offrant ainsi une expérience optimale sur ordinateurs, 
+                         tablettes et smartphones.
+                    </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Application mobile</h4>
+                    <p> 
+                         Une application mobile est un logiciel 
+                         conçu pour être utilisé sur des appareils mobiles 
+                         comme les smartphones et tablettes, 
+                         offrant des fonctionnalités spécifiques à l'utilisateur.
+                    </p> <!-- Renseignez la définition -->
+                </div>
+            </article>
+            <article class="card">
+                <h3>Partie 3 - Découvrez le fonctionnement du réseau</h3>
+                <div class="dropdown">
+                    <h4>Serveurs</h4>
+                    <p> 
+                         Un serveur est un ordinateur ou un système 
+                         qui fournit des services, 
+                         des ressources ou des données à d'autres ordinateurs (clients) via un réseau.
+                    </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Adresse IP</h4>
+                    <p>
+                         Une adresse IP (Internet Protocol) est une série de chiffres unique 
+                         attribuée à chaque appareil connecté à un réseau, 
+                         permettant son identification et sa communication avec d'autres appareils.
+                    </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Nom d’hôte et DNS</h4>
+                    <p>
+                         Le nom d'hôte est un nom unique attribué à un appareil 
+                         sur un réseau pour faciliter son identification.
+                         Le DNS (Domain Name System) est un système 
+                         qui traduit les noms d'hôtes en adresses IP pour permettre 
+                         la communication entre les appareils sur Internet.
+                    </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Protocoles</h4>
+                    <p>
+                         Les protocoles sont des règles et des conventions
+                         qui régissent la communication entre les appareils sur un réseau,
+                         garantissant l'échange de données de manière standardisée et fiable
+                         (ex. HTTP, FTP, TCP/IP).
+                    </p> <!-- Renseignez la définition -->
+                </div>
+            </article>
+            <article class="card">
+                <h3>Partie 4 - Identifiez les métiers du web</h3>
+                <div class="dropdown">
+                    <h4>Développeurs</h4>
+                    <p>
+                         Les développeurs créent et maintiennent les applications web
+                         ou mobiles en écrivant du code, 
+                         généralement avec des langages comme HTML, CSS, JavaScript, 
+                         ou d'autres langages côté serveur.
+                    </p>
+                    </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Product Managers et chefs de projets</h4>
+                    <p>
+                         Le Product Manager définit la vision, 
+                         les fonctionnalités et les priorités d'un produit digital, 
+                         tandis que le Chef de Projet gère la planification, 
+                         les ressources et la mise en œuvre des projets web, 
+                         en veillant à respecter les délais et le budget.
+                    </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Designers</h4>
+                    <p>
+                         Les designers sont responsables de l'apparence et de l'ergonomie 
+                         d'un site ou d'une application, 
+                         créant des interfaces visuelles attrayantes et intuitives pour les utilisateurs.
+                    </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Testeurs</h4>
+                    <p>
+                         Les testeurs (ou QA - Quality Assurance) vérifient la qualité 
+                         et le bon fonctionnement des produits web en effectuant des tests
+                         pour détecter des bugs,
+                         des erreurs ou des améliorations possibles.
+                        </p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Techniciens informatique</h4>
+                    <p>
+                         Les techniciens informatiques assurent la maintenance, 
+                         le support et la gestion des systèmes informatiques, 
+                         des serveurs et des infrastructures techniques nécessaires 
+                         au bon fonctionnement des applications web et des réseaux.
+                    </p> <!-- Renseignez la définition -->
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="languages">
+        <h2>Langages de développement web</h2>
+        <div class="slider">
+            <div class="slider-content">
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/html.png" alt="HTML" />
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Front-End</p>
+                        <p>Squelette du site Web. Il définit la structure de  base du contenu, comme les titres, les paragraphes, les images, etc.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/css.png" alt="CSS" />
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Front-End</p>
+                        <p>
+                             L'habillage du site Web.
+                             Il définit l'apparence visuelle du contenu, 
+                             comme les couleurs, les polices, 
+                             les marges et la disposition des éléments.
+                        </p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/js.png" alt="JavaScript" />
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Front-End</p>
+                        <p>
+                             L'interactivité du site Web. 
+                             Il permet d'ajouter des fonctionnalités dynamiques, 
+                             comme des animations, 
+                             des interactions avec l'utilisateur ou des mises à jour en temps réel
+                             sans recharger la page.
+                        </p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/js.png" alt="JavaScript" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>
+                             JavaScript pour le back-end est un langage de programmation 
+                             utilisé sur les serveurs grâce à Node.js, 
+                             permettant de gérer des bases de données, 
+                             des requêtes utilisateurs et de créer des API pour des applications web.
+                        </p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/php.png" alt="PHP" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>PHP</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>
+                             Un langage côté serveur qui permet de développer des sites web interactifs, 
+                             de gérer des bases de données et de générer des contenus
+                             adaptés à chaque utilisateur.
+                        </p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/java.png" alt="Java" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>Java</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>
+                             Un langage de programmation polyvalent utilisé pour créer des applications web robustes,
+                             des services backend et des systèmes complexes nécessitant une grande fiabilité.
+                        </p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/python.png" alt="Python" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>Python</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>
+                             Un langage de programmation accessible et puissant,
+                             utilisé pour le développement web, l’analyse de données,
+                             l’intelligence artificielle et la gestion de bases de données.
+                        </p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/c.png" alt="C#" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>C#</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>
+                             Un langage de programmation orienté objet,
+                             souvent utilisé pour le développement d’applications web avec le framework .NET, 
+                             ainsi que pour des logiciels et des jeux.
+                        </p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/sql.png" alt="SQL" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>SQL</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Bases de données</p>
+                        <p>
+                             Un langage de requête conçu pour gérer et interroger des bases de données relationnelles,
+                             permettant de stocker, récupérer et manipuler des données efficacement.
+                        </p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="slider-arrows">
+            <img src="img/left.png" alt="Gauche" id="left" />
+            <img src="img/right.png" alt="Droite" id="right" />
+        </div>
+    </section>
+
+    <section id="tools">
+        <h2>Boîte à outils du développeur</h2>
+        <ul class="card">
+            <li><strong>IDE comme VS Code</strong> 
+                 : <br>Un IDE (Environnement de Développement Intégré) est un logiciel qui fournit 
+                 des outils pour coder, 
+                 tester et déboguer facilement, comme l’éditeur de texte, 
+                 l’autocomplétion et le gestionnaire de projets.
+                 <!-- Renseignez la définition -->
+            </li>
+            <li><strong>Github</strong> 
+                 : <br>Une plateforme en ligne qui permet de stocker, 
+                 gérer et partager du code source, 
+                 tout en facilitant la collaboration entre développeurs 
+                 grâce au contrôle de version avec Git. 
+                 <!-- Renseignez la définition -->
+            </li>
+            <li><strong>Librairies / bibliothèques</strong> 
+                 : <br>Les bibliothèques sont des collections de fonctions ou de classes préécrites 
+                 qui simplifient et accélèrent le développement en offrant des solutions
+                 prêtes pour des tâches courantes. 
+                 <!-- Renseignez la définition -->
+            </li>
+            <li><strong>Frameworks</strong> 
+                 : <br>Un framework est un ensemble d'outils et de bibliothèques 
+                 qui facilitent le développement d'applications en fournissant une structure de base
+                 et des fonctionnalités prêtes à l'emploi.<br>Exemples de frameworks :
+                 <br>.React – Un framework JavaScript pour construire des interfaces utilisateurs dynamiques.
+                 <br>.Django – Un framework Python pour développer des applications web rapides et sécurisées.
+                 <br>.Ruby on Rails – Un framework Ruby pour créer des applications web robustes et évolutives.
+                  <!-- Renseignez la définition -->
+            </li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
